@@ -38,7 +38,7 @@ export default function Header() {
           <TooltipProvider>
             <Tooltip>
               <TooltipTrigger asChild>
-                <a href="https://github.com/VoxHash/algovista-next" target="_blank" rel="noreferrer">
+                <a href="https://github.com/VoxHash/algovista" target="_blank" rel="noreferrer">
                   <Button variant="outline" size="icon" aria-label="View Source Code">
                     <Code2 className="h-4 w-4"/>
                   </Button>

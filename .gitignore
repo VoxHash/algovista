@@ -21,26 +21,38 @@ next-env.d.ts
 # Vercel
 .vercel
 
-# IDE
+# IDE / editors
 .vscode/
 .idea/
 *.swp
 *.swo
+*.sublime-*
+.project
+.classpath
+.settings/
+
+# Cursor
+.cursor/
+.cursorignore
 
 # OS
 .DS_Store
+.DS_Store?
+._*
 Thumbs.db
+ehthumbs.db
+Desktop.ini
 
 # Testing
 coverage/
 .nyc_output/
 
 # Logs
-logs
+logs/
 *.log
 
 # Runtime data
-pids
+pids/
 *.pid
 *.seed
 *.pid.lock
@@ -54,6 +66,11 @@ pids
 .rts2_cache_cjs/
 .rts2_cache_es/
 .rts2_cache_umd/
+.turbo/
+
+# Sync / conflict copies
+*_from-workstation-*
+*_conflict-*
 
 # Misc
 *.pem
@@ -62,3 +79,4 @@ pids
 .node_repl_history
 tmp/
 temp/
+*.local
